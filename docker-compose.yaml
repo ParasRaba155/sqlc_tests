@@ -1,0 +1,10 @@
+version: '3.7'
+services:
+  db:
+    image: postgres:latest
+    container_name: sqlc_test_db
+    restart: always
+    env_file:
+      - .env.dev
+    ports:
+      - "5432:5432"
