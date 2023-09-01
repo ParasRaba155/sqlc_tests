@@ -1,0 +1,3 @@
+DROP TABLE tenants CASCADE;
+DROP TABLE departments CASCADE;
+DROP TABLE employees CASCADE;
